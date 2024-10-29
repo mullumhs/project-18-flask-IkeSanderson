@@ -8,7 +8,7 @@ def index():
 
     return 'Hello, World!'
 
-@task1.route('/hello/<Balls>')
+@task1.route('/hello/<name>')
 
 def hello(name):
 
