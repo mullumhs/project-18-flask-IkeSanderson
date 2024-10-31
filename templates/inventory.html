@@ -18,13 +18,13 @@
       {% endfor %}
     </ul>
 
-    {% if 'apple' in inventory %}
+    {% if thing in inventory %}
 
-    <p>You have an apple.</p>
+    <p>You have a {{ thing }}</p>
 
     {% else %}
 
-    <p>You do not have an apple.</p>
+    <p>You do not have a {{ thing }}</p>
 
     {% endif %}
   </body>
